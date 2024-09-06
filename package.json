@@ -7,7 +7,6 @@
   "scripts": {
     "buildGame": "tsc",
     "runGame": "yarn buildGame && node dist/src/index.js",
-
     "runGameVsHuman": "yarn runGame player1Type=Human player2Type=Human",
     "runGameVsBot": "yarn runGame player1Type=Human player2Type=CPU", 
     "runGameVsMonkey": "yarn runGame player1Type=Human player2Type=Monkey"
